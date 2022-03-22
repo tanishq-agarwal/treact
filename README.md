@@ -33,8 +33,8 @@ npm run test
 👤 **tanishq-agarwal**
 
 * Website: https://tanishq-agarwal.netlify.app/
-* Github: [@tanishq-agarwal](https://github.com/tanishq-agarwal)
-* LinkedIn: [@tanishq-agarwal-10a9371a0](https://linkedin.com/in/tanishq-agarwal-10a9371a0)
+* Github: [tanishq-agarwal](https://github.com/tanishq-agarwal)
+* LinkedIn: [Tanishq Agarwal](https://linkedin.com/in/tanishq-agarwal-10a9371a0)
 
 ## Show your support
 
@@ -43,7 +43,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2022 [tanishq-agarwal](https://github.com/tanishq-agarwal).<br />
-This project is [Copyright &copy; 2022 [Tanishq Agarwal](https://github.com/tanishq--agarwal)](https://github.com/tanishq-agarwal) licensed.
+This project is [Copyright &copy; 2022 [Tanishq Agarwal](https://github.com/tanishq--agarwal)] licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
