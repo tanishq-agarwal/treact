@@ -4,13 +4,17 @@ import Navbar from '../Navbar';
 import Services from '../Services';
 
 const Service = () => {
-    return (
-        <>
-          <Navbar/>
-          <Services/>
-          <Footer/>  
-        </>
-    )
+  return (
+    <>
+      <div className='page-container'>
+        <div className='content-wrap'>
+          <Navbar />
+          <Services />
+        </div>
+        <Footer />
+      </div>
+    </>
+  )
 }
 
 export default Service;

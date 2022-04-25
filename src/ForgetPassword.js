@@ -40,6 +40,7 @@ const ForgetPassword = () => {
                         sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
                         render='explicit'
                         onChange={HandleOnChange}
+                        className='recaptcha'
                     />
                     <button type="submit" className="btn btn-style" onClick={() => handleSubscribe()} >
                         Continue

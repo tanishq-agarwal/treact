@@ -6,9 +6,13 @@ import Navbar from '../Navbar';
 const LogIn = () => {
   return (
     <>
-        <Navbar/>
-        <Login/>
-        <Footer/>
+      <div className='page-container'>
+        <div className='content-wrap'>
+          <Navbar />
+          <Login />
+        </div>
+        <Footer />
+      </div>
     </>
   )
 }

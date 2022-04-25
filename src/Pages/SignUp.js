@@ -6,9 +6,13 @@ import Signup from '../Signup';
 const SignUp = () => {
   return (
     <>
-        <Navbar/>
-        <Signup/>
-        <Footer/>
+      <div className='page-container'>
+        <div className='content-wrap'>
+          <Navbar />
+          <Signup />
+        </div>
+        <Footer />
+      </div>
     </>
   )
 }

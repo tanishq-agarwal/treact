@@ -5,9 +5,13 @@ import Contacts from '../Contacts';
 const Contact = () => {
     return (
         <>
+        <div className='page-container'>
+        <div className='content-wrap'>
           <Navbar/>
           <Contacts/>
+          </div>
           <Footer/>  
+          </div>
         </>
     )
 }

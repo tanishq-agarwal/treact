@@ -1364,6 +1364,20 @@ footer .fontawesome-style:hover {
   z-index: 1;
 }
 
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap{
+  flex: 1;
+}
+
+@media (min-width: 1375px){
+.services-container{
+  margin-top: 14rem;
+}
+}
 @media (max-width: 1370px) {
   .meals-img img {
     width: 78rem;
@@ -1374,6 +1388,12 @@ footer .fontawesome-style:hover {
   .subscribe-form button {
     right: 14rem;
     height: 5.5rem;
+  }
+  .services-container{
+    margin-top: 24rem;
+  }
+  .forget-password {
+    margin-top: 15rem;
   }
 }
 
@@ -1394,6 +1414,9 @@ footer .fontawesome-style:hover {
   .contact-right .btn {
     margin: 0;
   }
+  .contact-us {
+    margin-top: 12rem;
+  }
 }
 @media (max-width: 1175px) {
   .meals-img img {
@@ -1413,6 +1436,9 @@ footer .fontawesome-style:hover {
   }
   .carousel {
     margin: 3rem 0;
+  }
+  .login-container{
+    margin-top: 12rem;
   }
 }
 
@@ -1671,6 +1697,9 @@ footer .fontawesome-style:hover {
   }
   .recaptcha{
     display: none;
+  }
+  .services-container{
+    margin-top: 10rem;
   }
 }
 @media (max-width: 830px) {

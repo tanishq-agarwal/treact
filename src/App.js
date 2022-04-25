@@ -12,17 +12,17 @@ import Forgetpassword from './Pages/Forgetpassword';
 const App = () => {
   return (
     <>
-    <Switch>
-        <Route exact path='/' component={Home}></Route>
-        <Route exact path='/about' component={AboutUs}></Route>
-        <Route exact path='/contact' component={Contact}></Route>
-        <Route exact path='/service' component={Service}></Route>
-        <Route exact path='/blog' component={Blog}></Route>
-        <Route exact path='/login' component={LogIn}></Route>
-        <Route exact path='/signup' component={SignUp}></Route>
-        <Route exact path='/forget' component={Forgetpassword}></Route>
-        <Redirect to="/"/>
-      </Switch>
+          <Switch>
+            <Route exact path='/' component={Home}></Route>
+            <Route exact path='/about' component={AboutUs}></Route>
+            <Route exact path='/contact' component={Contact}></Route>
+            <Route exact path='/service' component={Service}></Route>
+            <Route exact path='/blog' component={Blog}></Route>
+            <Route exact path='/login' component={LogIn}></Route>
+            <Route exact path='/signup' component={SignUp}></Route>
+            <Route exact path='/forget' component={Forgetpassword}></Route>
+            <Redirect to="/" />
+          </Switch>
     </>
   )
 }
